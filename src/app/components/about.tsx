@@ -1,13 +1,12 @@
 
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
-type Props = {
-  children: React.ReactNode;
-  href: string;
-  target: "_blank";
-  download?: boolean | string; // Correct type for 'download'
-};
+// type Props = {
+//   children: React.ReactNode;
+//   href: string;
+//   target: "_blank";
+//   download?: boolean | string; // Correct type for 'download'
+// };
 
 const About = () => {
   return (
@@ -19,7 +18,7 @@ const About = () => {
       
         className="object-cover object-center rounded mx-auto w-[500px] h-[500px]"
         alt="hero"
-        src={require("../../public/pics/banner.png")}
+        src="/pics/banner.png"
         width={200}
         height={200}
       />
@@ -39,7 +38,7 @@ const About = () => {
         Email : amiransari10101@gmail.com
       
       <div className="flex justify-center">
-      <a href="/pics/CV/My-CV.pdf" target="_blank" download>
+      <a href="/pics/My-CV.pdf" target="_blank" download>
         <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
           View CV
         </button>

@@ -16,7 +16,7 @@ const Hero = () => {
         <br className="hidden lg:inline-block" />
         <Typewriter
   options={{
-    strings: ['Web Developer', '& A Freelancer!',],
+    strings: ['Amir Ansari','Web Developer', '& A Freelancer!',],
     autoStart: true,
     loop: true,
   }}
@@ -28,9 +28,9 @@ const Hero = () => {
       <p className="mb-8 leading-relaxed text-justify">
       As a passionate web developer, I specialize in building intuitive, responsive, and visually engaging websites that prioritize user experience and accessibility. With a strong foundation in HTML, CSS, and JavaScript as well as Next.Js, along with expertise in frameworks like React and Vue.js, I enjoy transforming ideas into digital solutions that drive results.
 
-My approach focuses on clean, efficient code, collaboration, and continuous learning to stay at the forefront of evolving web technologies. Whether it's crafting a custom e-commerce site, developing a sleek web app, or optimizing existing code, I’m dedicated to delivering quality that speaks for itself.
+My approach focuses on clean, efficient code, collaboration, and continuous learning to stay at the forefront of evolving web technologies. Whether it&apos;s crafting a custom e-commerce site, developing a sleek web app, or optimizing existing code, I&apos;m dedicated to delivering quality that speaks for itself.
 
-If you’re looking for a developer who brings creativity, technical skill, and attention to detail, let's connect and bring your project to life!.
+If you&apos;re looking for a developer who brings creativity, technical skill, and attention to detail, let&apos;s connect and bring your project to life!.
       </p>
       <div className="flex justify-center">
        <Link href={"#Contact"}>
@@ -50,7 +50,7 @@ If you’re looking for a developer who brings creativity, technical skill, and 
         alt="hero"
         width={500}
         height={500}
-        src={require('../../public/pics/banner.png')}
+        src="/pics/banner.png"
       />
     </div>
   </div>
